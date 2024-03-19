@@ -1,5 +1,6 @@
 import React from 'react';
 import './Main.css'
+import { assets } from '../assets/assets';
 
 const Main = () => {
     return (
@@ -9,7 +10,7 @@ const Main = () => {
                     <h1>Hi, <span>Learner</span></h1>
                     <p>Here you will get the Time management tools to manage your tasks and Time.</p>
                 </div>
-                <img src="time.png" />
+                <img src={assets.time_icon} />
                 <button>Click Here to Start Your Journey</button>
             </div>
             <div className="second"></div>

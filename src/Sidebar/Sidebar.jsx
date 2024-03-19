@@ -4,7 +4,7 @@ import './Sidebar.css'
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-     <h3>This is vikash Thakur</h3>
+     <h3>Pocket Chrono</h3>
     </div>
   );
 };

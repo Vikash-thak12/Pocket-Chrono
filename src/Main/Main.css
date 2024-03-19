@@ -13,9 +13,9 @@
     width: 50%;
     height: 100%;
     padding: 20px;
-    /* background: url(time.png);
-    background-size: cover;
-    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     
 }
@@ -25,20 +25,23 @@
     bottom: 0;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 30px;
-    font-size: 2rem;
+    padding: 20px;
+    font-size: 1.5rem;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 40px;
+    background: linear-gradient(45deg, #08001f, #30197d);
+    color: white;
 }
 .details 
 {
     text-align: center;
-    margin-top: 50px;
+    margin: 10px 0;
 }
 
 .details h1
 {
-    font-size: 5rem;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .details p{
@@ -49,6 +52,12 @@
     background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.first img{
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .second
