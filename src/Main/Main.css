@@ -1,0 +1,60 @@
+.main-container
+{
+    flex: 1;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.first
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    /* background: url(time.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+    
+}
+
+.first button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.details 
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.details h1
+{
+    font-size: 5rem;
+}
+
+.details p{
+    font-size: 1.5rem;
+
+}
+.details span{
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.second
+{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+
+}
