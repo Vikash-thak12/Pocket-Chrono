@@ -1,0 +1,126 @@
+/* main.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(135deg, #153677, #4e085f);
+  height: 100vh;
+  /* width: 100%; */
+  padding: 10px;
+}
+
+.to-do {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 540px;
+  background-color: rgb(188, 172, 172);
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 80vh;
+  overflow: hidden;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.box img {
+  width: 40px;
+}
+
+.Inbtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(151, 143, 143);
+  color: black;
+  border-radius: 25px;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+input {
+  padding-left: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background: #270501;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(80, 221, 221);
+  color: black;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px 50px;
+  font-weight: bold;
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+ul li span {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  width: 30px;
+  height: 30px;
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+ul li span:hover {
+  background-color: #270501;
+  border-radius: 50%;
+  color: white;
+}
+
+ul li::before {
+  content: '';
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  background-image: url(images/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  left: 10px;
+  bottom: 7px;
+  cursor: pointer;
+}
+
+ul li.item {
+  color: #555;
+  text-decoration: line-through;
+}
+
+ul li.item::before {
+  background-image: url(images/checked.png);
+}

@@ -1,6 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import './Main.css';
 import { assets } from '../assets/assets';
+// import Sidemain from '../sideMain/Sidemain';
 
 const Main = () => {
     const handleButtonClick = () => {
@@ -18,6 +19,7 @@ const Main = () => {
                 <img src={assets.time_icon} alt="Time Icon" />
                 <button onClick={handleButtonClick}>Click Here to Start Your Journey</button>
             </div>
+            {/* <Sidemain /> */}
             <div className="second"></div>
         </div>
     );
