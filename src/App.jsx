@@ -3,7 +3,6 @@ import './App.css'
 // import Header from './Header/Header'
 import Main from './Main/Main'
 import Sidebar from './Sidebar/Sidebar'
-// import Sidemain from './sideMain/Sidemain'
 
 function App() {
 
