@@ -6,13 +6,10 @@ function App() {
 
   return (
     <>
-      {/* <Header /> */}
       <div className="middle">
         <Sidebar />
         <Main />
-        {/* <Sidemain /> */}
       </div>
-      {/* <Footer /> */}
     </>
   )
 }
